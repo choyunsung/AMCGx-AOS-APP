@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">에이엠시지</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">AMCG 헬스케어</string>
+    <string name="dashboard_greeting">안녕하세요 👋</string>
+
+    <!-- Tabs -->
+    <string name="tab_dashboard">대시보드</string>
+    <string name="tab_ai_consultation">AI 상담</string>
+    <string name="tab_consultation_history">상담 내역</string>
+    <string name="tab_my_profile">나의 프로필</string>
+    <string name="tab_watchlist">관심목록</string>
+    <string name="tab_hospital_link">병원연계</string>
+
+    <!-- Health Metrics -->
+    <string name="health_heart_rate">심박수</string>
+    <string name="health_blood_pressure">혈압</string>
+    <string name="health_mcg_index">MCG 지수</string>
+    <string name="health_stress">스트레스</string>
+    <string name="health_hrv">심박변이도</string>
+
+    <!-- Units -->
+    <string name="unit_bpm">BPM</string>
+    <string name="unit_mmhg">mmHg</string>
+    <string name="unit_ms">ms</string>
+
+    <!-- Status -->
+    <string name="status_normal">정상</string>
+    <string name="status_low">낮음</string>
+    <string name="status_high">높음</string>
+    <string name="status_loading">데이터 로딩 중…</string>
+
+    <!-- Permissions -->
+    <string name="permission_health_rationale">심박수, 혈압, 심박변이도 등 건강 데이터를 분석하여 종합적인 건강 상태를 모니터링하기 위해 Health Connect 접근이 필요합니다.</string>
+    <string name="permission_camera_rationale">얼굴 안색과 표정을 분석하여 건강 상태를 확인하기 위해 카메라가 필요합니다.</string>
+    <string name="permission_notification_rationale">건강 알림을 받기 위해 알림 권한이 필요합니다.</string>
+
+    <!-- Errors -->
+    <string name="error_health_connect_unavailable">Health Connect를 사용할 수 없습니다</string>
+    <string name="error_permission_denied">권한이 거부되었습니다</string>
+    <string name="error_loading_data">데이터 로딩 중 오류가 발생했습니다</string>
+</resources>

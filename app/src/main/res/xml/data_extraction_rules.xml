@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude sensitive health data from cloud backup -->
+        <exclude domain="sharedpref" path="health_data.xml"/>
+        <exclude domain="database" path="health.db"/>
+    </cloud-backup>
+</data-extraction-rules>

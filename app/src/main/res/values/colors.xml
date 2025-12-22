@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#5B6EFF</color>
+    <color name="primary_dark">#4A5CE6</color>
+    <color name="secondary">#FF6B9D</color>
+    <color name="accent">#8B5CF6</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#5B6EFF</color>
+    <color name="gradient_end">#8B5CF6</color>
+
+    <!-- Background Colors -->
+    <color name="background">#F8F9FE</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_secondary">#F3F4F6</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_tertiary">#9CA3AF</color>
+
+    <!-- Status Colors -->
+    <color name="success">#10B981</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+    <color name="info">#3B82F6</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_heart_rate">#FF6B9D</color>
+    <color name="chart_blood_pressure_systolic">#EF4444</color>
+    <color name="chart_blood_pressure_diastolic">#3B82F6</color>
+    <color name="chart_stress_low">#10B981</color>
+    <color name="chart_stress_normal">#3B82F6</color>
+    <color name="chart_stress_moderate">#F59E0B</color>
+    <color name="chart_stress_high">#EF4444</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="background_dark">#0F172A</color>
+    <color name="surface_dark">#1E293B</color>
+    <color name="surface_secondary_dark">#334155</color>
+    <color name="text_primary_dark">#F1F5F9</color>
+    <color name="text_secondary_dark">#CBD5E1</color>
+    <color name="text_tertiary_dark">#94A3B8</color>
+</resources>
