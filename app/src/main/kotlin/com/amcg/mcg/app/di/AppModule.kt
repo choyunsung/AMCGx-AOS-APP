@@ -2,6 +2,7 @@ package com.amcg.mcg.app.di
 
 import android.content.Context
 import com.amcg.mcg.app.data.services.HealthConnectManager
+import com.amcg.mcg.app.data.services.auth.AuthService
 import com.amcg.mcg.app.data.services.consultation.ConsultationApiService
 import com.amcg.mcg.app.data.services.consultation.SocketService
 import com.amcg.mcg.app.data.services.consultation.WebRTCService
@@ -83,5 +84,15 @@ object AppModule {
         socketService: SocketService
     ): WebRTCService {
         return WebRTCService(context, socketService)
+    }
+
+    @Provides
+    @Singleton
+    fun provideAuthService(
+        @ApplicationContext context: Context,
+        okHttpClient: OkHttpClient,
+        json: Json
+    ): AuthService {
+        return AuthService(context, okHttpClient, json)
     }
 }

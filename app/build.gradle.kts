@@ -129,6 +129,9 @@ dependencies {
     // Biometric
     implementation("androidx.biometric:biometric:1.1.0")
 
+    // Security (Encrypted SharedPreferences)
+    implementation("androidx.security:security-crypto:1.1.0-alpha06")
+
     // WebRTC
     implementation("io.getstream:stream-webrtc-android:1.1.1")
 
