@@ -22,6 +22,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.amcg.mcg.app.data.models.HealthSummary
+import com.amcg.mcg.app.ui.screens.consultation.VideoConsultationScreen
 import com.amcg.mcg.app.ui.theme.*
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -55,7 +56,7 @@ fun DashboardScreen() {
         // Content
         when (selectedTabIndex) {
             0 -> DashboardContent(healthSummary)
-            1 -> PlaceholderContent("AI 상담")
+            1 -> VideoConsultationScreen()
             2 -> PlaceholderContent("상담 내역")
             3 -> PlaceholderContent("나의 프로필")
             4 -> PlaceholderContent("관심목록")
